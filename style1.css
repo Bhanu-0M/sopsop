@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300;600&family=Tektur:wght@800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-snap-type: y mandatory; /* Enable vertical snap scrolling */
+    overflow-y: scroll; /* Enable scrolling on the y-axis */
+    height: 100vh; /* Ensure full viewport height */
+    background-image: url('pexels-photo-1261728.jpeg');
+
+}
+.container{
+    scroll-snap-type:y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    font-size: 25px;
+    position: relative;
+}
+  
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+ }
+ h1{
+    text-align: center;
+    font-family: 'REM', sans-serif;
+    color: rgb(266, 266, 266);
+    text-shadow: 4px 4px 4px black;
+ }
+ h3{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30vh;
+    color: rgb(266, 266, 266);
+    text-shadow: 1px 1px 4px black;
+ }
+ button{
+    text-align: center;
+    border-radius:2%;
+    cursor: pointer;
+    position: absolute;
+    left: 33%;
+ }
+#a{
+    background-color: rgb(227, 150, 62);
+}
+#b{
+    background-color: rgb(255, 117, 24)    ;
+}
+#c{
+    background-color: rgb(255, 165, 0);
+}
+#d{
+    background-color: rgb(255, 117, 24);
+}
+#e{
+    background-color:  rgb(255, 170, 51);
+}
